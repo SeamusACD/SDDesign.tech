@@ -1,0 +1,48 @@
+body {
+	background-color: #e5dfdc;
+	padding: 1em;
+}
+
+header {
+	background-color: #111920;
+}
+
+footer {
+	padding: 1em;
+}
+
+h1 {
+	color: #111920;
+	background-color: #e5dfdc; 
+	padding: .2em;
+	padding-top: .9em;
+	padding-bottom: 1em;
+}
+
+h2 {
+	color: white; 
+	padding: .1em;
+}
+
+li {
+	color: #e5dfdc;
+	padding: .1em;
+}
+
+main {
+	background-color: #22394c;
+	color: white;
+	padding-bottom: .3em;
+	padding: 1.2em;
+}
+
+#Resume {
+	background-color: #22394c;
+	padding: 1em;
+	width: 85px;
+}
+
+#No-problem { 
+	background-color: #111920;
+	color: #e5dfdc;
+	 }
