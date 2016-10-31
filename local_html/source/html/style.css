@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'AvenirNextLTW01RegularRegular';
+  src: url('/fonts/AvenirNextLTW01RegularRegular.eot?#iefix') format('embedded-opentype'),  
+  	   url('AvenirNextLTW01RegularRegular.woff') format('woff'), 
+  	   url('AvenirNextLTW01RegularRegular.ttf')  format('truetype'), 
+  	   url('AvenirNextLTW01RegularRegular.svg#AvenirNextLTW01RegularRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTW01ItalicRegular'; 
+  src: url('/fonts/AvenirNextLTW01ItalicRegular.eot?#iefix') format('embedded-opentype'),  
+  url('AvenirNextLTW01ItalicRegular.woff') format('woff'), url('AvenirNextLTW01ItalicRegular.ttf')  format('truetype'), 
+  url('AvenirNextLTW01ItalicRegular.svg#AvenirNextLTW01ItalicRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTW01BoldRegular';
+  src: url('/fonts/AvenirNextLTW01BoldRegular.eot?#iefix') format('embedded-opentype'),  
+  url('AvenirNextLTW01BoldRegular.woff') format('woff'), url('AvenirNextLTW01BoldRegular.ttf')  format('truetype'), 
+  url('AvenirNextLTW01BoldRegular.svg#AvenirNextLTW01BoldRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	background-color: #e5dfdc;
+	padding: 1em;
+	font-family: 'AvenirNextLTW01RegularRegular';
+}
+
+header {
+	background-color: #111920;
+	font-family: 'AvenirNextLTW01BoldRegular';
+}
+
+footer {
+	padding: 1em;
+	font-family: 'AvenirNextLTW01ItalicRegular'; 
+}
+
+h1 {
+	color: #111920;
+	background-color: #e5dfdc; 
+	padding: .2em;
+	padding-top: .2em;
+	padding-bottom: .1em;
+	font-family: 'AvenirNextLTW01BoldRegular';
+	font-size: 48px;
+}
+
+h2 {
+	color: white; 
+	padding: .1em;
+	font-family: 'AvenirNextLTW01RegularRegular';
+}
+
+li {
+	color: #e5dfdc;
+	padding: .1em;
+	font-family: 'AvenirNextLTW01RegularRegular';
+}
+
+main {
+	background-color: #22394c;
+	color: white;
+	padding-bottom: .3em;
+	padding: 1.2em;
+	font-family: 'AvenirNextLTW01RegularRegular';
+}
+
+a {
+	color: white;
+}
+
+#Resume {
+	background-color: #22394c;
+	padding: 1em;
+	width: 130px;  
+	font-family: 'AvenirNextLTW01ItalicRegular'; 
+	font-size: 36px;
+}
+
+#No-problem { 
+	background-color: #111920;
+	color: #e5dfdc;
+	 }
