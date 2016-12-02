@@ -145,7 +145,7 @@ p {
 	width: 500%;
 	margin: 0;
 	left: 0;
-	animation: 40s sliding infinite;
+	animation: 33s sliding infinite;
 }
 
 @keyframes sliding {
