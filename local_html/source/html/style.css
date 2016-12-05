@@ -1,5 +1,4 @@
-/*________________________________FONTS______________________________*/
-
+/*___FONTS___*/
 
 @font-face {
   font-family: 'AvenirNextLTW01RegularRegular';
@@ -29,7 +28,7 @@
   font-style: normal;
 }
 
-/*____________________________<body>_______________________________*/
+/*___<body>___*/
 
 body {
 	background-image: url(background.jpg);
@@ -38,7 +37,7 @@ body {
 	padding: 0;
 }
 
-/*_____________________________Logo________________________________*/
+/*___logo___*/
 
 .logo {
 	display: block;
@@ -48,10 +47,9 @@ body {
 	margin: auto;
 }
 
-/*____________________________Nav Bar_______________________________*/
+/*___nav bar___*/
 
 ul {
-
 	font-family: 'AvenirNextLTW01RegularRegular';
 	font-size: 20px; 
 	text-align: center;
@@ -65,34 +63,29 @@ ul a {
 	color: white;
 	padding: 15px;
 	text-decoration: none;
-	display: block inline;
+	display: inline-block;
 }
 
 li {
 	display: inline-block;
 	text-align: center;
-	
 	text-align: center;
-	/*margin: .7em;  better for responsive?*/
 }
 
 li a:hover {
     color: #C02026;
 }
 
-.active {
-	color: #white;
-}
-
-/*_____________________________Main_______________________________*/
+/*___main___*/
 
 main {
 	background-color: #C02026;
 	width: 65%;
 	overflow: hidden;
 	margin: auto;
-
 }
+
+/*___headers___*/
 
 h1 {
 	font-family: 'AvenirNextLTW01BoldRegular';
@@ -106,11 +99,9 @@ h1 {
 h2 {
 	font-family: 'AvenirNextLTW01RegularRegular';
 	font-size: 32px;
-	margin: none;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: white;
-
 }
 
 h3 {
@@ -129,14 +120,19 @@ h4 {
 	padding-bottom: 30px;
 }
 
+h5 {
+	font-family: 'AvenirNextLTW01ItalicRegular';
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	padding-bottom: 10px;
+}
 
-
+/*___services___*/
 
 .services {
 	text-align: center;
-	padding-top: 40px;
 	padding-bottom: 40px;
-
 }
 
 .servlist {
@@ -164,7 +160,7 @@ h4 {
 	padding-left: 20px;
 }
 
-/*----about-class-----*/
+/*___about___*/
 
 .about {
 	text-align: center;
@@ -174,17 +170,20 @@ h4 {
 	font-family: 'AvenirNextLTW01RegularRegular';
 	font-size: 12pt;
 	color: white;
-	text-align: left;
+	text-align: center;
 	padding-left: 2em;
-	padding-bottom: 1em;
-	width: 50%;
+	padding-bottom: 30px;
+	width: 48%;
+	line-height: 25px;
 }
 
 .about img {
 	padding-bottom: 20px;
+	padding-top: 20px;
+	max-width: 45%;
 }
 
-/*----contact-class----*/
+/*___contact___*/
 
 .contact {
 
@@ -208,19 +207,33 @@ h4 {
 .contact ul {
 	padding-top: 20px;
 	text-align: left;
-
 }
 
 .contact ul li {
 	text-align: center;
 	display: block;
+}
 
+.contact p {
+	font-family: 'AvenirNextLTW01RegularRegular';
+	font-size: 12pt;
+	color: white;
+	width: 50%;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 .social {
 	text-align: center;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
+
+.social img {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*___portfolio___*/
 
 .portfolio {
 	text-align: center;
@@ -229,21 +242,23 @@ h4 {
 
 .portfolio h2 {
 	padding-bottom: 30px;
-	padding-top: 30px;
 }
 
 .portfolio img {
+	padding-bottom: 20px;
+}
+
+.portfolio p {
+	font-family: 'AvenirNextLTW01RegularRegular';
+	font-size: 16px;
+	text-align: center;
+	color: white;
 	padding-bottom: 40px;
+	width: 55%;
+	line-height: 25px;
 }
 
-
-
-footer {
-	position: center;
-	width: 100%;
-	
-}
-
+/*___home/slider___*/
 
 *{
 	margin:auto;
@@ -251,30 +266,21 @@ footer {
 	text-decoration: none;
 }
 
-/*p { if i choose to add text to sliders I can using p
-	z-index: 100;
-	font-size: 48px;
-	text-align: center;
-	position: absolute;
-	width: 10%;
-	color: black;
-	font-family: 'AvenirNextLTW01RegularRegular'
-}
-*/
-
 .slider {
 	display: block;
 	overflow: hidden;
-	height: 637px;
 	width: 100%;
 	margin: auto;
-	padding-top: 0px;
-/*	background-color: #C02026;*/
+	height: 637px;
+}
+
+.quote {
+	width: 54%;
+	padding-bottom: 35px;
 }
 
 .slider figure div {
 	width: 10%;
-	height: 637px;
 	float: left;
 }
 
@@ -288,7 +294,6 @@ footer {
 	width: 1000%;
 	margin: 0;
 	left: 0;
-
 	animation: 45s sliding infinite;
 }
 
@@ -394,62 +399,5 @@ footer {
 	}
 	100% {
 		left: 0%;
-	}	
-
-
-
-
-
-#cat>img {
-    width: 400px;
-}
-
-#cat {
-    text-align: center;
-    padding: 3em;
-
-}
-img {
-      cursor:pointer;
-}
-
-#modal {
-    position: fixed;
-    text-align:center;
-    top:3em;
-    left:25%;
-    height: 60vh;
-    width: 50%;
-    margin: auto;
-    background-color: #ffffff;
-    padding:1em;
-    box-shadow: 0px 0px 100px #888888;
-    display:none;
-    font-size:2em;
-}
-
-
-#modal-ui {
-    position: fixed;
-    text-align:center;
-    top:3em;
-    left:25%;
-    height: 60vh;
-    width: 50%;
-    margin: auto;
-    background-color: red;
-    padding:1em;
-    box-shadow: 0px 0px 100px #888888;
-    display:none;
-    font-size:2em;
-}
-
-a {
-  display:block;
-  /*font-size:1.2em;*/
-  cursor:pointer;
-  margin:3em;
-}
-
-
-
+	}
+	
